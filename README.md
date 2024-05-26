@@ -11,7 +11,7 @@
 
 # Soal Latihan Praktikum ( Pegawai )
 
-![alt text](<tabel pegawai.png>)
+![alt text](<Gambar/tabel pegawai.png>)
 
 **Perintah SQL :**
 
@@ -40,7 +40,7 @@ INSERT INTO pegawai VALUES
 
 ***Output :***
 
-![alt text](<es 1-1.png>)
+![alt text](<Gambar/es 1-1.png>)
 
 ## Tugas Praktikum
 
@@ -52,7 +52,7 @@ SELECT*FROM pegawai WHERE gaji NOT IN (2000000, 1250000);
 
 ***Output :***
 
-![alt text](<es 2.png>)
+![alt text](<Gambar/es 2.png>)
 
 **2. Tampilkan pegawai yang tunjangannya NULL!**
 
@@ -62,7 +62,7 @@ SELECT*FROM pegawai WHERE tunjangan IS NULL;
 
 ***Output :***
 
-![alt text](<es 3.png>)
+![alt text](<Gambar/es 3.png>)
 
 **3. Tampilkan pegawai yang tunjangannya tidak NULL!**
 
@@ -72,7 +72,7 @@ SELECT*FROM pegawai WHERE tunjangan IS NOT NULL;
 
 ***Output :***
 
-![alt text](<es 4.png>)
+![alt text](<Gambar/es 4.png>)
 
 **4. Tampilkan/hitung jumlah baris/record tabel pegawai!**
 
@@ -82,7 +82,7 @@ SELECT COUNT(*) AS jmlh_pegawai FROM pegawai;
 
 ***Output :***
 
-![alt text](<es 5.png>)
+![alt text](<Gambar/es 5.png>)
 
 **5. Tampilkan/hitung jumlah total gaji di tabel pegawai!**
 
@@ -92,7 +92,7 @@ SELECT SUM(gaji) AS ttl_gaji FROM pegawai;
 
 ***Output :***
 
-![alt text](<es 6.png>)
+![alt text](<Gambar/es 6.png>)
 
 **6. Tampilkan/hitung rata-rata gaji pegawai!**
 
@@ -102,7 +102,7 @@ SELECT AVG(gaji) AS mean_gaji FROM pegawai;
 
 ***Output :***
 
-![alt text](<es 7.png>)
+![alt text](<Gambar/es 7.png>)
 
 **7. Tampilkan gaji terkecil!**
 
@@ -112,7 +112,7 @@ SELECT MIN(gaji) AS terkecil FROM pegawai;
 
 ***Output :***
 
-![alt text](<es 8.png>)
+![alt text](<Gambar/es 8.png>)
 
 **8. Tampilkan gaji terbesar!**
 
@@ -122,11 +122,11 @@ SELECT MAX(gaji) AS terbesar FROM pegawai;
 
 ***Output :***
 
-![alt text](<es 9.png>)
+![alt text](<Gambar/es 9.png>)
 
 # Soal Latihan Praktikum ( Hewan )
 
-![alt text](<tabel hewan.png>)
+![alt text](<Gambar/tabel hewan.png>)
 **Perintah SQL :**
 
 ```
@@ -152,7 +152,7 @@ INSERT INTO hewan VALUES
 
 ***Output :***
 
-![alt text](<es 10.png>)
+![alt text](<Gambar/es 10.png>)
 
 ## Tugas Praktikum
 
@@ -164,7 +164,7 @@ SELECT owner, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY owner;
 
 ***Output :***
 
-![alt text](<es 11.png>)
+![alt text](<Gambar/es 11.png>)
 
 **2. Tampilkan jumlah hewan berdasarkan spesies**
 
@@ -174,7 +174,7 @@ SELECT species, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY species;
 
 ***Output :***
 
-![alt text](<es 12.png>)
+![alt text](<Gambar/es 12.png>)
 
 **3. Tampilkan jumlah hewan berdasarkan jenis kelamin**
 
@@ -184,7 +184,7 @@ SELECT sex, COUNT(*) AS jmlh_hewan FROM hewan GROUP BY sex;
 
 ***Output :***
 
-![alt text](<es 13.png>)
+![alt text](<Gambar/es 13.png>)
 
 **4. Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin**
 
@@ -194,7 +194,7 @@ SELECT species, sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY species, sex;
 
 ***Output :***
 
-![alt text](<es 14.png>)
+![alt text](<Gambar/es 14.png>)
 
 **5. Tampilkan jumlah hewan berdasarkan spesis (cat dan dog saja) dan jenis kelamin**
 
@@ -206,7 +206,7 @@ GROUP BY species, sex;
 
 ***Output :***
 
-![alt text](<es 15.png>)
+![alt text](<Gambar/es 15.png>)
 
 **6. Tampilkan jumlah hewan berdasarkan jenis kelamin yang diketahui saja**
 
@@ -216,7 +216,7 @@ SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan WHERE sex IS NOT NULL GROUP BY s
 
 ***Output :***
 
-![alt text](<es 16.png>)
+![alt text](<Gambar/es 16.png>)
 
 ## Tulis semua perintah-perintah SQL percobaan di atas beserta outputnya!
 
@@ -310,4 +310,4 @@ Terdapat beberapa ***Query Filter*** yang ditemukan pada tugas praktikum 4 :
 - `MAX` adalah perintah yang digunakan untuk menampilkan nilai terbesar dari suatu kolom pada tabel.
 - Klausa `GROUP BY` berfungsi untuk mengelompokkan data berdasarkan field tertentu.
 
-## FINISH <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/source/microsoft-teams/337/student_1f9d1-200d-1f393.png"> <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/thumbs/160/twitter/348/flag-indonesia_1f1ee-1f1e9.png">
+## FINISH 
